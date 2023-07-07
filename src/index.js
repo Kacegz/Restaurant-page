@@ -1,3 +1,4 @@
+import './style.css'
 import {header} from './header.js';
 import middle from './middle.js';
 import footer from './footer.js';

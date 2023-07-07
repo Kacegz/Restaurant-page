@@ -1,3 +1,4 @@
+import icon from './assets/icon.png'
 const header=function(){
     const header=document.createElement('div');
     header.id="header";
@@ -5,7 +6,7 @@ const header=function(){
     const logo=document.createElement("div");
     logo.id="icon"
     const image=document.createElement('img');
-    image.setAttribute('src',"assets/icon.png")
+    image.setAttribute('src',icon)
     const name=document.createElement('p');
     name.textContent="Blossom Teahouse";
     logo.appendChild(image);
