@@ -15,7 +15,6 @@ const menu=function(){
     const senchaname=document.createElement('h1');
     senchaname.textContent="Sencha"
     const senchaimg=document.createElement('img');
-    senchaimg.setAttribute('src','assets/icon.png')
     sencha.appendChild(senchaname)
     const senchadesc=document.createElement('p');
     senchadesc.textContent="has a bright green appearance and a delicate, grassy aroma. Its flavor profile is often described as crisp and mildly vegetal, with hints of sweetness and a clean finish.";
