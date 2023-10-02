@@ -90,7 +90,6 @@ html,body{
 }
 #footer{
     background-color: var(--blacknav);
-    height: 5vh;
     display: flex;
     flex-direction: column;
 }
